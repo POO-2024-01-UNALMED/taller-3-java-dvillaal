@@ -29,7 +29,7 @@ public class TV {
 	 }
 	 
 	 public void setCanal(int canal) {
-		 if (canal > 0 && canal <= 120 && estado == true) { 
+		 if (canal >= 0 && canal <= 120 && estado == true) { 
 				this.canal = canal;
 		 }
 	 }
@@ -82,7 +82,7 @@ public class TV {
 	 
 	 public void canalUp (){
 		 if (canal < 120 && estado == true ) {
-			canal++; 
+			 canal++; 
 		 }
 	 }
 	 
