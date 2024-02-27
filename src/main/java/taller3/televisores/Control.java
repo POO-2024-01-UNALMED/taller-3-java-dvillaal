@@ -11,8 +11,8 @@ public class Control {
 		this.tv = tv;
 	}
 	
-	public void enlazar(TV tv) {
-		this.tv = tv;
+	public void enlazar(TV televisor) {
+		tv = televisor;
 		tv.setControl(this);
 	}
 	
